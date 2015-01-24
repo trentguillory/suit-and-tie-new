@@ -252,6 +252,10 @@ video#bgvid {
   height:166px;
 }
 
+.left {
+  float:left;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some

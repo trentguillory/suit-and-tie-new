@@ -1,15 +1,61 @@
-{% include header.html %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+  <title> Suit & Tie </title>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="../css/custom.css">
+  <!--<![endif]-->
+
+</head>
+<body>
+<!--Navbar-->
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading left" href="">S&amp;T</a>
+
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="videos.html">Our Videos</a></li>
+        <li><a href="pricing/index.html">Pricing</a></li>
+      </ul>
+    </div>
+  </div>
+<!--End Navbar-->
+
 
   <div class="splash-container">
     <!--HTML5 Video-->
     <video id="bgvid" autoplay loop poster="">
-      <source src="video/st-bg-video.mp4" type="video/mp4">
+      <source src="../video/st-bg-video.mp4" type="video/mp4">
     </video>
 
     <div class="splash">
-      <div class="abs-center splash-hero">
-        <img class="logo" src="image/whiteSuit.png" alt="logo">
-        <h1 class="splash-head-2">SUIT &amp; TIE</h1>
+      <div class="abs-center pricing-hero">
+        <img class="pricing-logo" src="../image/pricing-white.png" alt="logo">
+        <h1 class="splash-head-2">PRICING</h1>
         <p class="splash-subhead">
         Wedding videographers from Louisiana
         </p>
@@ -129,4 +175,12 @@
 
     </div>
 
-    {% include footer.html %}
+    <div class="footer l-box is-center">
+      Suit &amp; Tie Videography 2015
+    </div>
+
+  </div>
+
+</body>
+</html>
+

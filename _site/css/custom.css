@@ -194,7 +194,7 @@ a.pure-button-primary {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    /*margin: 2em 0 1em;*/
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -249,6 +249,11 @@ video#bgvid {
   width:110px;
 }
 
+.videos-logo {
+  padding-bottom:10px;
+  width:110px;
+}
+
 /* Absolute Center */
 .abs-center {
   margin: auto;
@@ -264,10 +269,45 @@ video#bgvid {
   height:190px;
 }
 
+.videos-hero {
+  height:184px;
+}
+
 .left {
   float:left;
 }
 
+/*Pricing page */
+
+h2.pricing-header {
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:100;
+}
+
+div.pricing-table ul {
+  list-style-type: none;
+}
+
+div.pricing-table ul li:nth-child(odd) {
+  background-color: #F5F5F5;
+  padding: 15px 15px 15px 20px;
+}
+div.pricing-table ul li:nth-child(even) {
+  background-color: #EAEAEA;
+  padding: 15px 15px 15px 20px;
+}
+div.pricing-table ul li.nested {
+  padding-left:48px;
+}
+
+/*OVERWRITES*/
+menu, ol, ul {
+  padding:0px;
+}
+.no-padding {
+  padding-top:0px;
+}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
